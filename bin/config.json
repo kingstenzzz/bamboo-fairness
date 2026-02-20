@@ -19,9 +19,9 @@
   "chan_buffer_size": 10240,
   "buffer_size": 10240,
   "multiversion": false,
-  "timeout": 5000,
-  "bsize": 50,
-  "memsize": 50000,
+  "timeout": 500,
+  "bsize": 10,
+  "memsize": 500,
   "fixed": false,
   "payload_size": 0,
   "delta": 1,
@@ -30,18 +30,18 @@
   "pprof": false,
   "maxRound": 5000,
   "master": "0",
-  "delay": 0,
-  "derr": 0,
+  "delay": 10,
+  "derr": 2,
   "slow": 300,
   "crash": 20000,
   "dup_recv": 1,
-  "phalanx_multi": 1,
+  "phalanx_multi": 0,
   "phalanx_log_count": 100,
-  "phalanx_byz_no": 0,
+  "phalanx_byz_no": 1,
   "phalanx_open_latency": 0,
   "themis": {
     "enabled": false,
-    "proposal_wait": 500
+    "proposal_wait": 200
   },
   "hyperg": {
     "enabled": false,
@@ -55,7 +55,7 @@
   "phalanx_duration_command": 0,
   "phalanx_selected_propose": 2,
   "benchmark": {
-    "T": 1200,
+    "T": 300,
     "N": 0,
     "K": 1000,
     "W": 0.5,
@@ -72,6 +72,5 @@
     "Zipfian_s": 2,
     "Zipfian_v": 1,
     "Lambda": 0.01
-  },
-  "zoned": false
+  }
 }

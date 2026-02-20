@@ -13,12 +13,12 @@ import (
 
 	"go.uber.org/atomic"
 
+	"github.com/gitferry/bamboo/HyperG"
 	"github.com/gitferry/bamboo/blockchain"
 	"github.com/gitferry/bamboo/config"
 	"github.com/gitferry/bamboo/crypto"
 	"github.com/gitferry/bamboo/election"
 	"github.com/gitferry/bamboo/hotstuff"
-	"github.com/gitferry/bamboo/hyperg"
 	"github.com/gitferry/bamboo/identity"
 	"github.com/gitferry/bamboo/log"
 	"github.com/gitferry/bamboo/mempool"
@@ -42,7 +42,7 @@ type Replica struct {
 	themisProps  map[types.View]map[identity.NodeID]*themis.OrderedList
 	hyperg       bool
 	hypergSorter *HyperG.HyperGSorter
-	hypergProps  map[types.View]map[identity.NodeID]*HyperG.OrderedList
+	HyperGProps  map[types.View]map[identity.NodeID]*HyperG.OrderedList
 
 	pd              *mempool.Producer
 	pm              *pacemaker.Pacemaker
@@ -139,7 +139,7 @@ func NewReplica(id identity.NodeID, alg string, isByz bool) *Replica {
 			config.GetConfig().HyperG.Gamma,
 			config.GetConfig().HyperG.Delta,
 		)
-		r.hypergProps = make(map[types.View]map[identity.NodeID]*HyperG.OrderedList)
+		r.HyperGProps = make(map[types.View]map[identity.NodeID]*HyperG.OrderedList)
 	}
 
 	// Is there a better way to reduce the number of parameters?
@@ -208,14 +208,14 @@ func (r *Replica) HandleHyperGProposal(hp message.HyperGProposal) {
 }
 
 func (r *Replica) HandleHyperGProposalEvent(hp message.HyperGProposal) {
-	if _, ok := r.hypergProps[hp.View]; !ok {
-		r.hypergProps[hp.View] = make(map[identity.NodeID]*HyperG.OrderedList)
+	if _, ok := r.HyperGProps[hp.View]; !ok {
+		r.HyperGProps[hp.View] = make(map[identity.NodeID]*HyperG.OrderedList)
 	}
-	r.hypergProps[hp.View][hp.Proposer] = &HyperG.OrderedList{
+	r.HyperGProps[hp.View][hp.Proposer] = &HyperG.OrderedList{
 		Cmds:       hp.Cmds,
 		Timestamps: hp.Timestamps,
 	}
-	// TODO: Clean up old views from r.hypergProps
+	// TODO: Clean up old views from r.HyperGProps
 }
 
 func (r *Replica) HandleConsensusMessage(message pCommonProto.ConsensusMessage) {
@@ -434,8 +434,8 @@ func (r *Replica) handleQuery(m message.Query) {
 		aveVoteProcessTime,
 		requestRate,
 		aveRoundTime,
-		nodeQuery.TThroughput,
-		nodeQuery.TLatency,
+		nodeQuery.Throughput,
+		nodeQuery.Latency,
 	)
 
 	// 根据 phalanx_multi 值决定是否显示 Phalanx 指标
@@ -649,6 +649,10 @@ func (r *Replica) processCommittedBlock(block *blockchain.Block) {
 	r.committedNo++
 	r.totalCommittedTx += len(block.Payload)
 	r.Node.CommitBlock()
+	
+	// 更新Node层的统计信息
+	r.Node.UpdateStats(block.Payload)
+	
 	log.Infof("[%v] the block is committed, No. of transactions: %v, view: %v, current view: %v, id: %x", r.ID(), len(block.Payload), block.View, r.pm.GetCurView(), block.ID)
 	if block.PBatch == nil {
 		return
