@@ -1,0 +1,51 @@
+{
+  "address": {
+    "1": "tcp://127.0.0.1:3735",
+    "2": "tcp://127.0.0.1:3736",
+    "3": "tcp://127.0.0.1:3737",
+    "4": "tcp://127.0.0.1:3738"
+  },
+  "http_address": {
+    "1": "http://127.0.0.1:8070",
+    "2": "http://127.0.0.1:8071",
+    "3": "http://127.0.0.1:8072",
+    "4": "http://127.0.0.1:8073"
+  },
+  "policy": "majority",
+  "threshold": 3,
+  "byzNo": 0,
+  "strategy": "silence",
+  "thrifty": false,
+  "chan_buffer_size": 10240,
+  "buffer_size": 10240,
+  "multiversion": false,
+  "timeout": 1000,
+  "bsize": 1,
+  "memsize": 50000,
+  "fixed": false,
+  "payload_size": 0,
+  "delta": 1,
+  "hasher": "sha3_256",
+  "signer": "ECDSA_P256",
+  "pprof": false,
+  "maxRound": 5000,
+  "master": "0",
+  "delay": 0,
+  "derr": 0,
+  "slow": 300,
+  "crash": 20000,
+  "dup_recv": 1,
+  "phalanx_multi": 0,
+  "themis": {
+    "enabled": true,
+    "proposal_wait": 200
+  },
+  "benchmark": {
+    "T": 60,
+    "N": 100,
+    "K": 1000,
+    "Throttle": 10,
+    "Concurrency": 1,
+    "Distribution": "uniform"
+  }
+}

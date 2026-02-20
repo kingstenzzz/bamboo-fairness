@@ -1,0 +1,10 @@
+# HotStuff main configuration file
+
+# Consensus parameters
+blk-size = 100
+timeout = 1000
+prop-delay = 100
+
+# Security parameters
+nmajority = 3
+nreplicas = 4

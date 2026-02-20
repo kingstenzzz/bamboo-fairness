@@ -1,0 +1,1 @@
+cmd='/Users/kingsten/code/themis-src-anon-main/Aequitas-hotstuff/libhotstuff/secp256k1/autogen.sh;COMMAND;env;CRYPTO_CFLAGS="-I/opt/homebrew/Cellar/openssl@3/3.6.1/include";CRYPTO_LIBS="-L/opt/homebrew/lib -lcrypto";/Users/kingsten/code/themis-src-anon-main/Aequitas-hotstuff/libhotstuff/secp256k1/configure;--disable-shared;--with-pic;--with-bignum=no;--enable-module-recovery'

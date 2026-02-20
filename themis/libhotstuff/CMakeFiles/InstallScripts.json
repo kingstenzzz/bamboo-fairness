@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/kingsten/code/themis-src-anon-main/Aequitas-hotstuff/libhotstuff/cmake_install.cmake",
+		"/Users/kingsten/code/themis-src-anon-main/Aequitas-hotstuff/libhotstuff/salticidae/cmake_install.cmake",
+		"/Users/kingsten/code/themis-src-anon-main/Aequitas-hotstuff/libhotstuff/test/cmake_install.cmake",
+		"/Users/kingsten/code/themis-src-anon-main/Aequitas-hotstuff/libhotstuff/examples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
