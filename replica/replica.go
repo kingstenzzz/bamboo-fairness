@@ -41,8 +41,8 @@ type Replica struct {
 	fo           *themis.FairOrderer
 	themisProps  map[types.View]map[identity.NodeID]*themis.OrderedList
 	hyperg       bool
-	hypergSorter *hyperg.HyperGSorter
-	hypergProps  map[types.View]map[identity.NodeID]*hyperg.OrderedList
+	hypergSorter *HyperG.HyperGSorter
+	hypergProps  map[types.View]map[identity.NodeID]*HyperG.OrderedList
 
 	pd              *mempool.Producer
 	pm              *pacemaker.Pacemaker
@@ -133,13 +133,13 @@ func NewReplica(id identity.NodeID, alg string, isByz bool) *Replica {
 
 	r.hyperg = config.GetConfig().HyperG.Enabled
 	if r.hyperg {
-		r.hypergSorter = hyperg.NewHyperGSorter(
+		r.hypergSorter = HyperG.NewHyperGSorter(
 			config.GetConfig().N(),
 			config.GetConfig().ByzNo,
 			config.GetConfig().HyperG.Gamma,
 			config.GetConfig().HyperG.Delta,
 		)
-		r.hypergProps = make(map[types.View]map[identity.NodeID]*hyperg.OrderedList)
+		r.hypergProps = make(map[types.View]map[identity.NodeID]*HyperG.OrderedList)
 	}
 
 	// Is there a better way to reduce the number of parameters?
@@ -209,9 +209,9 @@ func (r *Replica) HandleHyperGProposal(hp message.HyperGProposal) {
 
 func (r *Replica) HandleHyperGProposalEvent(hp message.HyperGProposal) {
 	if _, ok := r.hypergProps[hp.View]; !ok {
-		r.hypergProps[hp.View] = make(map[identity.NodeID]*hyperg.OrderedList)
+		r.hypergProps[hp.View] = make(map[identity.NodeID]*HyperG.OrderedList)
 	}
-	r.hypergProps[hp.View][hp.Proposer] = &hyperg.OrderedList{
+	r.hypergProps[hp.View][hp.Proposer] = &HyperG.OrderedList{
 		Cmds:       hp.Cmds,
 		Timestamps: hp.Timestamps,
 	}

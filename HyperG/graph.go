@@ -1,4 +1,4 @@
-package hyperg
+package HyperG
 
 // Hyperedge represents a hyperedge in the hypergraph
 type Hyperedge struct {
@@ -52,12 +52,12 @@ func (g *DirectedGraph) AddEdge(source, target int) {
 
 // TarjanSCC implements Tarjan's algorithm for finding strongly connected components
 func (g *DirectedGraph) TarjanSCC() [][]int {
-	disc := make([]int, g.NodeCount)      // Discovery times
-	low := make([]int, g.NodeCount)       // Low values
-	onStack := make([]bool, g.NodeCount)  // Nodes currently on stack
-	stack := make([]int, 0)               // Stack for DFS
-	time := 0                             // Time counter
-	sccs := make([][]int, 0)              // Result SCCs
+	disc := make([]int, g.NodeCount)     // Discovery times
+	low := make([]int, g.NodeCount)      // Low values
+	onStack := make([]bool, g.NodeCount) // Nodes currently on stack
+	stack := make([]int, 0)              // Stack for DFS
+	time := 0                            // Time counter
+	sccs := make([][]int, 0)             // Result SCCs
 
 	// Initialize arrays
 	for i := 0; i < g.NodeCount; i++ {
@@ -118,31 +118,31 @@ func (g *DirectedGraph) TarjanSCC() [][]int {
 // TopologicalSort performs topological sort on a DAG
 func (g *DirectedGraph) TopologicalSort() []int {
 	inDegree := make([]int, g.NodeCount)
-	
+
 	// Calculate in-degrees
 	for u := 0; u < g.NodeCount; u++ {
 		for _, v := range g.AdjacencyList[u] {
 			inDegree[v]++
 		}
 	}
-	
+
 	// Queue for nodes with zero in-degree
 	queue := make([]int, 0)
 	result := make([]int, 0)
-	
+
 	// Add all nodes with zero in-degree
 	for i := 0; i < g.NodeCount; i++ {
 		if inDegree[i] == 0 {
 			queue = append(queue, i)
 		}
 	}
-	
+
 	// Process nodes
 	for len(queue) > 0 {
 		u := queue[0]
 		queue = queue[1:]
 		result = append(result, u)
-		
+
 		// Reduce in-degree of neighbors
 		for _, v := range g.AdjacencyList[u] {
 			inDegree[v]--
@@ -151,12 +151,12 @@ func (g *DirectedGraph) TopologicalSort() []int {
 			}
 		}
 	}
-	
+
 	// Check for cycles
 	if len(result) != g.NodeCount {
 		// Graph has cycle, return partial result
 		return result
 	}
-	
+
 	return result
 }
