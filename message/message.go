@@ -6,8 +6,10 @@ import (
 	"time"
 
 	"github.com/gitferry/bamboo/config"
+	"github.com/gitferry/bamboo/crypto"
 	"github.com/gitferry/bamboo/db"
 	"github.com/gitferry/bamboo/identity"
+	"github.com/gitferry/bamboo/types"
 )
 
 func init() {
@@ -19,6 +21,7 @@ func init() {
 	gob.Register(ReadReply{})
 	gob.Register(Register{})
 	gob.Register(config.Config{})
+	gob.Register(ThemisProposal{})
 }
 
 /***************************
@@ -33,6 +36,21 @@ type Transaction struct {
 	NodeID     identity.NodeID // forward by node
 	ID         string
 	C          chan TransactionReply // reply channel created by request receiver
+}
+
+/***************************
+ * Replica-Replica Messages *
+ ***************************/
+
+type ThemisProposal struct {
+	View       types.View
+	Proposer   identity.NodeID
+	Cmds       []crypto.Identifier
+	Timestamps []int64
+}
+
+func (tp ThemisProposal) String() string {
+	return fmt.Sprintf("ThemisProposal {view=%v proposer=%v}", tp.View, tp.Proposer)
 }
 
 // TransactionReply replies to current client session

@@ -196,7 +196,7 @@ func (n *node) txn() {
 	}
 }
 
-//recv receives messages from socket and pass to message channel
+// recv receives messages from socket and pass to message channel
 func (n *node) recv() {
 	for {
 		m := n.Recv()
@@ -256,11 +256,32 @@ func (n *node) CommitBlock() {
 
 func (n *node) QueryNode() QueryMessage {
 
-	// calculate throughput and latency.
-	totalThroughput := float64(n.totalCommittedTx) / time.Now().Sub(n.firstTimeAnchor).Seconds()
-	throughput := float64(n.intervalCommittedTx) / time.Now().Sub(n.throughputAnchor).Seconds()
-	totalLatency := n.totalLatency / float64(n.latencyCount)
-	latency := n.intervalLatency / float64(n.intervalLatencyCount)
+	// calculate throughput and latency with zero protection
+	totalThroughput := 0.0
+	if !n.firstTimeAnchor.IsZero() {
+		elapsed := time.Now().Sub(n.firstTimeAnchor).Seconds()
+		if elapsed > 0 {
+			totalThroughput = float64(n.totalCommittedTx) / elapsed
+		}
+	}
+
+	throughput := 0.0
+	if !n.throughputAnchor.IsZero() {
+		intervalElapsed := time.Now().Sub(n.throughputAnchor).Seconds()
+		if intervalElapsed > 0 {
+			throughput = float64(n.intervalCommittedTx) / intervalElapsed
+		}
+	}
+
+	totalLatency := 0.0
+	if n.latencyCount > 0 {
+		totalLatency = n.totalLatency / float64(n.latencyCount)
+	}
+
+	latency := 0.0
+	if n.intervalLatencyCount > 0 {
+		latency = n.intervalLatency / float64(n.intervalLatencyCount)
+	}
 
 	// reset throughput info.
 	n.intervalCommittedTx = 0
@@ -270,14 +291,23 @@ func (n *node) QueryNode() QueryMessage {
 	n.intervalLatency = 0
 	n.intervalLatencyCount = 0
 
-	// block size
-	aveBlockSize := float64(n.totalBlockSize) / float64(n.totalRealBlock)
+	// block size with zero protection
+	aveBlockSize := 0.0
+	if n.totalRealBlock > 0 {
+		aveBlockSize = float64(n.totalBlockSize) / float64(n.totalRealBlock)
+	}
 
-	// command size
-	avePayloadSize := float64(n.totalPayloadSize) / float64(n.totalRealBlock)
+	// command size with zero protection
+	avePayloadSize := 0.0
+	if n.totalRealBlock > 0 {
+		avePayloadSize = float64(n.totalPayloadSize) / float64(n.totalRealBlock)
+	}
 
-	// committed block
-	aveRealBlock := float64(n.totalRealBlock) / float64(n.totalInnerBlock)
+	// committed block with zero protection
+	aveRealBlock := 0.0
+	if n.totalInnerBlock > 0 {
+		aveRealBlock = float64(n.totalRealBlock) / float64(n.totalInnerBlock)
+	}
 
 	//n.totalBlockSize = 0
 	//n.totalPayloadSize = 0

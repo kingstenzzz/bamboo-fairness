@@ -60,7 +60,9 @@ type Config struct {
 
 	PhalanxSelectedPropose int `json:"phalanx_selected_propose"`
 
-	PhalanxOpenLatency int `json:"phalanx_open_latency"`
+	PhalanxOpenLatency int          `json:"phalanx_open_latency"`
+	Themis             ThemisConfig `json:"themis"`
+	HyperG             HyperGConfig `json:"hyperg"`
 
 	hasher string
 	signer string
@@ -131,8 +133,26 @@ func MakeDefaultConfig() Config {
 		MultiVersion:   false,
 		hasher:         "sha3_256",
 		signer:         "ECDSA_P256",
+		HyperG: HyperGConfig{
+			Enabled:      false,
+			Gamma:        0.8,
+			Delta:        5,
+			ProposalWait: 100,
+		},
 		//Benchmark:      DefaultBConfig(),
 	}
+}
+
+type ThemisConfig struct {
+	Enabled      bool `json:"enabled"`
+	ProposalWait int  `json:"proposal_wait"` // ms
+}
+
+type HyperGConfig struct {
+	Enabled      bool    `json:"enabled"`
+	Gamma        float64 `json:"gamma"`         // Fairness parameter (0.0-1.0)
+	Delta        int     `json:"delta"`         // Clustering distance threshold
+	ProposalWait int     `json:"proposal_wait"` // ms
 }
 
 //func SetKeys() error {

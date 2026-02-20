@@ -69,7 +69,6 @@ func (b *Backend) some(n int) []*message.Transaction {
 	defer b.mu.Unlock()
 	batchSize = b.size()
 	if batchSize >= n {
-		return nil
 		batchSize = n
 	}
 	batch := make([]*message.Transaction, 0, batchSize)

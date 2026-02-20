@@ -2,12 +2,16 @@
 
 PID_FILE=client.pid
 
-PID=$(cat "${PID_FILE}");
+if [ -f "${PID_FILE}" ]; then
+    PID=$(cat "${PID_FILE}")
+else
+    PID=""
+fi
 
 if [ -z "${PID}" ]; then
     echo "Process id for clients is written to location: {$PID_FILE}"
     go build ../client/
-    ./client&
+    ./client -log_dir=./ClientLog -log_level=debug&
     echo $! >> ${PID_FILE}
 else
     echo "Clients are already started in this folder."

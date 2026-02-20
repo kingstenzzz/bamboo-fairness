@@ -52,6 +52,11 @@ func Statistic(latency []time.Duration) Stat {
 		sum += m
 	}
 	size := len(ms)
+	if size == 0 {
+		return Stat{
+			Data: ms,
+		}
+	}
 	return Stat{
 		Data:   ms,
 		Size:   size,

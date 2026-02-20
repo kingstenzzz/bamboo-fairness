@@ -1,9 +1,15 @@
 {
   "address": {
-    "1": "tcp://127.0.0.1:3735"
+    "1": "tcp://127.0.0.1:3735",
+    "2": "tcp://127.0.0.1:3736",
+    "3": "tcp://127.0.0.1:3737",
+    "4": "tcp://127.0.0.1:3738"
   },
   "http_address": {
-    "1": "http://127.0.0.1:8070"
+    "1": "http://127.0.0.1:8070",
+    "2": "http://127.0.0.1:8071",
+    "3": "http://127.0.0.1:8072",
+    "4": "http://127.0.0.1:8073"
   },
   "policy": "majority",
   "threshold": 3,
@@ -14,7 +20,7 @@
   "buffer_size": 10240,
   "multiversion": false,
   "timeout": 5000,
-  "bsize": 1,
+  "bsize": 50,
   "memsize": 50000,
   "fixed": false,
   "payload_size": 0,
@@ -31,8 +37,18 @@
   "dup_recv": 1,
   "phalanx_multi": 1,
   "phalanx_log_count": 100,
-  "phalanx_byz_no": 1,
+  "phalanx_byz_no": 0,
   "phalanx_open_latency": 0,
+  "themis": {
+    "enabled": false,
+    "proposal_wait": 500
+  },
+  "hyperg": {
+    "enabled": false,
+    "gamma": 0.8,
+    "delta": 5,
+    "proposal_wait": 100
+  },
   "phalanx_interval": 10,
   "phalanx_oligarchy_leader": 0,
   "phalanx_duration_log": 50,
@@ -56,5 +72,6 @@
     "Zipfian_s": 2,
     "Zipfian_v": 1,
     "Lambda": 0.01
-  }
+  },
+  "zoned": false
 }
