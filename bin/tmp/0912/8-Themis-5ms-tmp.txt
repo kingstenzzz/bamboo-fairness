@@ -1,0 +1,886 @@
+client:2 chain status is: [1] The current view is: 1, chain growth rate is: 0, ave block interval is: NaN
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.000000 ms.
+Ave. processing time is 0 ms.
+Ave. vote time is 0 ms.
+Request rate is 201.456527 txs/s.
+Ave. round time is 0.000000 ms.
+Ave. Throughput is 0.000000 tx/s.
+Ave. Latency is 0.000000 ms.
+Ave. Latency of Phalanx
+     Select Command 0.000000 ms.
+     Generate Order Log 0.000000 ms.
+     Commit Order Log 0.000000 ms.
+     Commit Query Stream 0.000000 ms.
+     Commit Command Info 0.000000 ms.
+Ave. Rate of Phalanx
+     Order Size 0
+     Receive Rate 0.00
+     Log Rate 0.00
+     Gen Log Rate 0.00
+Phalanx Command Rate
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Medium
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Time Anchor
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Throughput is: 
+Time: 8.79 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: ENABLED (proposal_wait: 500 ms)
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 1770
+Current View: 1
+Committed Blocks: 0
+Total Committed Tx: 0
+Proposed Blocks: 0
+Processed Events: 0
+client:5chain status is: [1] The current view is: 0, chain growth rate is: 0, ave block interval is: NaN
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.000000 ms.
+Ave. processing time is 0 ms.
+Ave. vote time is 0 ms.
+Request rate is 604.471457 txs/s.
+Ave. round time is 0.000000 ms.
+Ave. Throughput is 0.000000 tx/s.
+Ave. Latency is 0.000000 ms.
+Ave. Latency of Phalanx
+     Select Command 0.000000 ms.
+     Generate Order Log 0.000000 ms.
+     Commit Order Log 0.000000 ms.
+     Commit Query Stream 0.000000 ms.
+     Commit Command Info 0.000000 ms.
+Ave. Rate of Phalanx
+     Order Size 0
+     Receive Rate 0.00
+     Log Rate 0.00
+     Gen Log Rate 0.00
+Phalanx Command Rate
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Medium
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Time Anchor
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Throughput is: 
+Time: 1.33 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: ENABLED (proposal_wait: 500 ms)
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 806
+Current View: 0
+Committed Blocks: 0
+Total Committed Tx: 0
+Proposed Blocks: 0
+Processed Events: 0
+client:6 chain status is: [1] The current view is: 1, chain growth rate is: 0, ave block interval is: NaN
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.000000 ms.
+Ave. processing time is 0 ms.
+Ave. vote time is 0 ms.
+Request rate is 684.441585 txs/s.
+Ave. round time is 0.000000 ms.
+Ave. Throughput is 0.000000 tx/s.
+Ave. Latency is 0.000000 ms.
+Ave. Latency of Phalanx
+     Select Command 0.000000 ms.
+     Generate Order Log 0.000000 ms.
+     Commit Order Log 0.000000 ms.
+     Commit Query Stream 0.000000 ms.
+     Commit Command Info 0.000000 ms.
+Ave. Rate of Phalanx
+     Order Size 0
+     Receive Rate 0.00
+     Log Rate 0.00
+     Gen Log Rate 0.00
+Phalanx Command Rate
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Medium
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Time Anchor
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Throughput is: 
+Time: 1.33 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 11.40 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: ENABLED (proposal_wait: 500 ms)
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 7800
+Current View: 1
+Committed Blocks: 0
+Total Committed Tx: 0
+Proposed Blocks: 0
+Processed Events: 0
+client:7chain status is: [1] The current view is: 1, chain growth rate is: 0, ave block interval is: NaN
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.000000 ms.
+Ave. processing time is 0 ms.
+Ave. vote time is 0 ms.
+Request rate is 200.134863 txs/s.
+Ave. round time is 0.000000 ms.
+Ave. Throughput is 0.000000 tx/s.
+Ave. Latency is 0.000000 ms.
+Ave. Latency of Phalanx
+     Select Command 0.000000 ms.
+     Generate Order Log 0.000000 ms.
+     Commit Order Log 0.000000 ms.
+     Commit Query Stream 0.000000 ms.
+     Commit Command Info 0.000000 ms.
+Ave. Rate of Phalanx
+     Order Size 0
+     Receive Rate 0.00
+     Log Rate 0.00
+     Gen Log Rate 0.00
+Phalanx Command Rate
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Medium
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Time Anchor
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Throughput is: 
+Time: 9.04 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: ENABLED (proposal_wait: 500 ms)
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 1810
+Current View: 1
+Committed Blocks: 0
+Total Committed Tx: 0
+Proposed Blocks: 0
+Processed Events: 0
+client:8 chain status is: [1] The current view is: 1, chain growth rate is: 0, ave block interval is: NaN
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.000000 ms.
+Ave. processing time is 0 ms.
+Ave. vote time is 0 ms.
+Request rate is 290.145514 txs/s.
+Ave. round time is 0.000000 ms.
+Ave. Throughput is 0.000000 tx/s.
+Ave. Latency is 0.000000 ms.
+Ave. Latency of Phalanx
+     Select Command 0.000000 ms.
+     Generate Order Log 0.000000 ms.
+     Commit Order Log 0.000000 ms.
+     Commit Query Stream 0.000000 ms.
+     Commit Command Info 0.000000 ms.
+Ave. Rate of Phalanx
+     Order Size 0
+     Receive Rate 0.00
+     Log Rate 0.00
+     Gen Log Rate 0.00
+Phalanx Command Rate
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Medium
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Time Anchor
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Throughput is: 
+Time: 9.04 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 19.09 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: ENABLED (proposal_wait: 500 ms)
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 5540
+Current View: 1
+Committed Blocks: 0
+Total Committed Tx: 0
+Proposed Blocks: 0
+Processed Events: 0
+client:8chain status is: [1] The current view is: 1, chain growth rate is: 0, ave block interval is: NaN
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.000000 ms.
+Ave. processing time is 0 ms.
+Ave. vote time is 0 ms.
+Request rate is 292.815327 txs/s.
+Ave. round time is 0.000000 ms.
+Ave. Throughput is 0.000000 tx/s.
+Ave. Latency is 0.000000 ms.
+Ave. Latency of Phalanx
+     Select Command 0.000000 ms.
+     Generate Order Log 0.000000 ms.
+     Commit Order Log 0.000000 ms.
+     Commit Query Stream 0.000000 ms.
+     Commit Command Info 0.000000 ms.
+Ave. Rate of Phalanx
+     Order Size 0
+     Receive Rate 0.00
+     Log Rate 0.00
+     Gen Log Rate 0.00
+Phalanx Command Rate
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Medium
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Time Anchor
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Throughput is: 
+Time: 9.04 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 19.09 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 29.14 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: ENABLED (proposal_wait: 500 ms)
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 8532
+Current View: 1
+Committed Blocks: 0
+Total Committed Tx: 0
+Proposed Blocks: 0
+Processed Events: 0
+client:9 chain status is: [1] The current view is: 1, chain growth rate is: 0, ave block interval is: NaN
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.000000 ms.
+Ave. processing time is 0 ms.
+Ave. vote time is 0 ms.
+Request rate is 371.404320 txs/s.
+Ave. round time is 0.000000 ms.
+Ave. Throughput is 0.000000 tx/s.
+Ave. Latency is 0.000000 ms.
+Ave. Latency of Phalanx
+     Select Command 0.000000 ms.
+     Generate Order Log 0.000000 ms.
+     Commit Order Log 0.000000 ms.
+     Commit Query Stream 0.000000 ms.
+     Commit Command Info 0.000000 ms.
+Ave. Rate of Phalanx
+     Order Size 0
+     Receive Rate 0.00
+     Log Rate 0.00
+     Gen Log Rate 0.00
+Phalanx Command Rate
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Medium
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Time Anchor
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Throughput is: 
+Time: 9.04 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 19.09 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 29.14 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 39.16 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: ENABLED (proposal_wait: 500 ms)
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 14544
+Current View: 1
+Committed Blocks: 0
+Total Committed Tx: 0
+Proposed Blocks: 0
+Processed Events: 0
+client:9chain status is: [1] The current view is: 1, chain growth rate is: 0, ave block interval is: NaN
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.000000 ms.
+Ave. processing time is 0 ms.
+Ave. vote time is 0 ms.
+Request rate is 409.155562 txs/s.
+Ave. round time is 0.000000 ms.
+Ave. Throughput is 0.000000 tx/s.
+Ave. Latency is 0.000000 ms.
+Ave. Latency of Phalanx
+     Select Command 0.000000 ms.
+     Generate Order Log 0.000000 ms.
+     Commit Order Log 0.000000 ms.
+     Commit Query Stream 0.000000 ms.
+     Commit Command Info 0.000000 ms.
+Ave. Rate of Phalanx
+     Order Size 0
+     Receive Rate 0.00
+     Log Rate 0.00
+     Gen Log Rate 0.00
+Phalanx Command Rate
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Medium
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Time Anchor
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Throughput is: 
+Time: 9.04 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 19.09 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 29.14 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 39.16 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 49.22 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: ENABLED (proposal_wait: 500 ms)
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 20140
+Current View: 1
+Committed Blocks: 0
+Total Committed Tx: 0
+Proposed Blocks: 0
+Processed Events: 0
+client:10 chain status is: [1] The current view is: 1, chain growth rate is: 0, ave block interval is: NaN
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.000000 ms.
+Ave. processing time is 0 ms.
+Ave. vote time is 0 ms.
+Request rate is 454.388735 txs/s.
+Ave. round time is 0.000000 ms.
+Ave. Throughput is 0.000000 tx/s.
+Ave. Latency is 0.000000 ms.
+Ave. Latency of Phalanx
+     Select Command 0.000000 ms.
+     Generate Order Log 0.000000 ms.
+     Commit Order Log 0.000000 ms.
+     Commit Query Stream 0.000000 ms.
+     Commit Command Info 0.000000 ms.
+Ave. Rate of Phalanx
+     Order Size 0
+     Receive Rate 0.00
+     Log Rate 0.00
+     Gen Log Rate 0.00
+Phalanx Command Rate
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Medium
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Time Anchor
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Throughput is: 
+Time: 9.04 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 19.09 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 29.14 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 39.16 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 49.22 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.70 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 51.27 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 51.78 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 52.19 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 52.63 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 53.19 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 53.61 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 53.79 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 54.01 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 54.16 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 56.64 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 58.17 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 59.29 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: ENABLED (proposal_wait: 500 ms)
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 26942
+Current View: 1
+Committed Blocks: 0
+Total Committed Tx: 0
+Proposed Blocks: 0
+Processed Events: 0
+client:10chain status is: [1] The current view is: 1, chain growth rate is: 0, ave block interval is: NaN
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.000000 ms.
+Ave. processing time is 0 ms.
+Ave. vote time is 0 ms.
+Request rate is 504.370068 txs/s.
+Ave. round time is 0.000000 ms.
+Ave. Throughput is 0.000000 tx/s.
+Ave. Latency is 0.000000 ms.
+Ave. Latency of Phalanx
+     Select Command 0.000000 ms.
+     Generate Order Log 0.000000 ms.
+     Commit Order Log 0.000000 ms.
+     Commit Query Stream 0.000000 ms.
+     Commit Command Info 0.000000 ms.
+Ave. Rate of Phalanx
+     Order Size 0
+     Receive Rate 0.00
+     Log Rate 0.00
+     Gen Log Rate 0.00
+Phalanx Command Rate
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Medium
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Time Anchor
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Throughput is: 
+Time: 9.04 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 19.09 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 29.14 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 39.16 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 49.22 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.70 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 51.27 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 51.78 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 52.19 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 52.63 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 53.19 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 53.61 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 53.79 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 54.01 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 54.16 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 56.64 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 58.17 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 59.29 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 62.19 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 69.31 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: ENABLED (proposal_wait: 500 ms)
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 34960
+Current View: 1
+Committed Blocks: 0
+Total Committed Tx: 0
+Proposed Blocks: 0
+Processed Events: 0
+client:11 chain status is: [1] The current view is: 1, chain growth rate is: 0, ave block interval is: NaN
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.000000 ms.
+Ave. processing time is 0 ms.
+Ave. vote time is 0 ms.
+Request rate is 553.986467 txs/s.
+Ave. round time is 0.000000 ms.
+Ave. Throughput is 0.000000 tx/s.
+Ave. Latency is 0.000000 ms.
+Ave. Latency of Phalanx
+     Select Command 0.000000 ms.
+     Generate Order Log 0.000000 ms.
+     Commit Order Log 0.000000 ms.
+     Commit Query Stream 0.000000 ms.
+     Commit Command Info 0.000000 ms.
+Ave. Rate of Phalanx
+     Order Size 0
+     Receive Rate 0.00
+     Log Rate 0.00
+     Gen Log Rate 0.00
+Phalanx Command Rate
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Medium
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Time Anchor
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Throughput is: 
+Time: 9.04 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 19.09 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 29.14 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 39.16 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 49.22 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.70 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 51.27 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 51.78 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 52.19 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 52.63 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 53.19 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 53.61 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 53.79 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 54.01 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 54.16 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 56.64 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 58.17 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 59.29 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 62.19 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 69.31 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 71.41 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 71.85 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 72.29 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 79.35 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: ENABLED (proposal_wait: 500 ms)
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 43958
+Current View: 1
+Committed Blocks: 0
+Total Committed Tx: 0
+Proposed Blocks: 0
+Processed Events: 0
+client:11chain status is: [1] The current view is: 1, chain growth rate is: 0, ave block interval is: NaN
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.000000 ms.
+Ave. processing time is 0 ms.
+Ave. vote time is 0 ms.
+Request rate is 604.062105 txs/s.
+Ave. round time is 0.000000 ms.
+Ave. Throughput is 0.000000 tx/s.
+Ave. Latency is 0.000000 ms.
+Ave. Latency of Phalanx
+     Select Command 0.000000 ms.
+     Generate Order Log 0.000000 ms.
+     Commit Order Log 0.000000 ms.
+     Commit Query Stream 0.000000 ms.
+     Commit Command Info 0.000000 ms.
+Ave. Rate of Phalanx
+     Order Size 0
+     Receive Rate 0.00
+     Log Rate 0.00
+     Gen Log Rate 0.00
+Phalanx Command Rate
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Medium
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Phalanx Command Rate Time Anchor
+     Total Commands 0
+     Safe Committed Commands 0(0.000000%)
+     Risk Committed Commands 0(0.000000%)
+     Front Attacked Commands 0(0.000000%)
+     Front Attacked From Safe 0(0.000000%)
+     Front Attacked From Risk 0(0.000000%)
+     Front Attacked Given 0(0.000000%)
+     Front Attacked Interval 0(0.000000%)
+     Success Rates []
+Throughput is: 
+Time: 9.04 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 19.09 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 29.14 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 39.16 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 49.22 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.70 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 51.27 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 51.78 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 52.19 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 52.63 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 53.19 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 53.61 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 53.79 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 54.01 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 54.16 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 56.64 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 58.17 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 59.29 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 62.19 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 69.31 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 71.41 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 71.85 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 72.29 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 79.35 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 89.38 s. Throughput: 0.00 txs/s, Latency: 0.00, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: ENABLED (proposal_wait: 500 ms)
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 53994
+Current View: 1
+Committed Blocks: 0
+Total Committed Tx: 0
+Proposed Blocks: 0
+Processed Events: 0

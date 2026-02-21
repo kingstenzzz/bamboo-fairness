@@ -36,13 +36,14 @@ type Replica struct {
 	Safety
 	election.Election
 
-	openPhalanx  bool
-	themis       bool
-	fo           *themis.FairOrderer
-	themisProps  map[types.View]map[identity.NodeID]*themis.OrderedList
-	hyperg       bool
-	hypergSorter *HyperG.HyperGSorter
-	HyperGProps  map[types.View]map[identity.NodeID]*HyperG.OrderedList
+	openPhalanx   bool
+	themis        bool
+	fo            *themis.FairOrderer
+	themisProps   map[types.View]map[identity.NodeID]*themis.OrderedList
+	proposedViews map[types.View]bool
+	hyperg        bool
+	hypergSorter  *HyperG.HyperGSorter
+	HyperGProps   map[types.View]map[identity.NodeID]*HyperG.OrderedList
 
 	pd              *mempool.Producer
 	pm              *pacemaker.Pacemaker
@@ -102,7 +103,7 @@ func NewReplica(id identity.NodeID, alg string, isByz bool) *Replica {
 	r.pd = mempool.NewProducer()
 	r.pm = pacemaker.NewPacemaker(config.GetConfig().N())
 	r.start = make(chan bool)
-	r.eventChan = make(chan interface{})
+	r.eventChan = make(chan interface{}, 1024)
 	r.committedBlocks = make(chan *blockchain.Block, 100)
 	r.forkedBlocks = make(chan *blockchain.Block, 100)
 	r.Register(blockchain.Block{}, r.HandleBlock)
@@ -129,6 +130,7 @@ func NewReplica(id identity.NodeID, alg string, isByz bool) *Replica {
 	if r.themis {
 		r.fo = themis.NewFairOrderer()
 		r.themisProps = make(map[types.View]map[identity.NodeID]*themis.OrderedList)
+		r.proposedViews = make(map[types.View]bool)
 	}
 
 	r.hyperg = config.GetConfig().HyperG.Enabled
@@ -187,8 +189,13 @@ func (r *Replica) HandleTmo(tmo pacemaker.TMO) {
 }
 
 func (r *Replica) HandleThemisProposal(tp message.ThemisProposal) {
-	log.Debugf("[%v] received a ThemisProposal from %v, view is %v", r.ID(), tp.Proposer, tp.View)
-	r.eventChan <- tp
+	log.Infof("[%v] HandleThemisProposal called: received ThemisProposal from %v, view %v", r.ID(), tp.Proposer, tp.View)
+	select {
+	case r.eventChan <- tp:
+		log.Infof("[%v] ThemisProposal sent to eventChan successfully", r.ID())
+	default:
+		log.Infof("[%v] eventChan is full, ThemisProposal from %v dropped", r.ID(), tp.Proposer)
+	}
 }
 
 func (r *Replica) HandleThemisProposalEvent(tp message.ThemisProposal) {
@@ -198,6 +205,17 @@ func (r *Replica) HandleThemisProposalEvent(tp message.ThemisProposal) {
 	r.themisProps[tp.View][tp.Proposer] = &themis.OrderedList{
 		Cmds:       tp.Cmds,
 		Timestamps: tp.Timestamps,
+	}
+	log.Infof("[%v] received themis proposal from %v for view %v, total proposals: %v", r.ID(), tp.Proposer, tp.View, len(r.themisProps[tp.View]))
+
+	// Check if we are the leader and have enough proposals
+	if r.themis && r.IsLeader(r.ID(), tp.View) {
+		props := r.themisProps[tp.View]
+		required := config.GetConfig().N() - config.GetConfig().ByzNo
+		if len(props) >= required {
+			log.Infof("[%v] has enough proposals for view %v: %v >= %v", r.ID(), tp.View, len(props), required)
+			go r.proposeBlockWithThemis(tp.View)
+		}
 	}
 	// TODO: Clean up old views from r.themisProps
 }
@@ -649,10 +667,10 @@ func (r *Replica) processCommittedBlock(block *blockchain.Block) {
 	r.committedNo++
 	r.totalCommittedTx += len(block.Payload)
 	r.Node.CommitBlock()
-	
+
 	// 更新Node层的统计信息
 	r.Node.UpdateStats(block.Payload)
-	
+
 	log.Infof("[%v] the block is committed, No. of transactions: %v, view: %v, current view: %v, id: %x", r.ID(), len(block.Payload), block.View, r.pm.GetCurView(), block.ID)
 	if block.PBatch == nil {
 		return
@@ -682,6 +700,14 @@ func (r *Replica) processNewView(newView types.View) {
 		return
 	}
 	r.proposeBlock(newView)
+
+	// In Themis mode, set a timer to propose block even if not enough proposals
+	if r.themis {
+		go func() {
+			time.Sleep(time.Duration(config.GetConfig().Themis.ProposalWait) * time.Millisecond)
+			r.proposeBlockWithThemis(newView)
+		}()
+	}
 }
 
 func (r *Replica) sendThemisProposal(view types.View) {
@@ -699,67 +725,87 @@ func (r *Replica) sendThemisProposal(view types.View) {
 		Timestamps: make([]int64, len(payload)),
 	}
 	for i, tx := range payload {
-		tp.Cmds[i] = crypto.MakeID(tx)
+		// Use tx.ID directly as the identifier, avoiding serialization of channel field
+		tp.Cmds[i] = crypto.Identifier{}
+		copy(tp.Cmds[i][:], []byte(tx.ID)[:32])
 		tp.Timestamps[i] = tx.Timestamp.UnixNano()
 		// 把交易放回内存池，因为这只是排序提议，还没真正打包进区块
 		r.pd.CollectTxn(tx)
 	}
 	leader := r.FindLeaderFor(view)
 	if leader == r.ID() {
-		r.HandleThemisProposal(tp)
+		log.Infof("[%v] is leader for view %v, handling own proposal locally", r.ID(), view)
+		// Use goroutine to avoid blocking the event loop
+		go r.HandleThemisProposal(tp)
 	} else {
+		log.Infof("[%v] sending ThemisProposal to leader %v for view %v", r.ID(), leader, view)
 		r.Send(leader, tp)
 	}
 }
 
+func (r *Replica) proposeBlockWithThemis(view types.View) {
+	// Check if already proposed for this view
+	if r.proposedViews[view] {
+		log.Debugf("[%v] already proposed for view %v, skipping", r.ID(), view)
+		return
+	}
+
+	// Mark as proposed
+	r.proposedViews[view] = true
+
+	props, ok := r.themisProps[view]
+	var payload []*message.Transaction
+
+	if ok && len(props) >= config.GetConfig().N()-config.GetConfig().ByzNo {
+		log.Infof("[%v] computing fair order for view %v with %v proposals", r.ID(), view, len(props))
+		fairOrder, err := r.fo.ComputeFairOrder(props, config.GetConfig().N(), config.GetConfig().ByzNo)
+		if err == nil && len(fairOrder) > 0 {
+			payload = r.pd.GeneratePayload()
+			orderMap := make(map[string]int)
+			for i, id := range fairOrder {
+				orderMap[string(id[:])] = i
+			}
+			sort.Slice(payload, func(i, j int) bool {
+				idI := payload[i].ID
+				idJ := payload[j].ID
+				posI, okI := orderMap[idI]
+				posJ, okJ := orderMap[idJ]
+				if okI && okJ {
+					return posI < posJ
+				}
+				if okI {
+					return true
+				}
+				if okJ {
+					return false
+				}
+				return false
+			})
+		} else {
+			log.Errorf("[%v] failed to compute fair order: %v, using unsorted payload", r.ID(), err)
+			payload = r.pd.GeneratePayload()
+		}
+	} else {
+		log.Infof("[%v] not enough proposals for view %v (got %d), proposing block anyway", r.ID(), view, len(props))
+		payload = r.pd.GeneratePayload()
+	}
+
+	block := r.Safety.MakeProposal(view, payload)
+	r.totalBlockSize += len(block.Payload)
+	r.proposedNo++
+	block.Timestamp = time.Now()
+	log.Infof("[%v] proposing block for view %v with %d transactions", r.ID(), view, len(block.Payload))
+	r.Node.Broadcast(block)
+	_ = r.Safety.ProcessBlock(block)
+	r.voteStart = time.Now()
+}
+
 func (r *Replica) proposeBlock(view types.View) {
 	if r.themis {
-		// Wait for 2f+1 themis proposals
-		// For simplicity, we use a timeout or check if we have enough proposals
-		// In a real implementation, we might want to use a more robust synchronization
-		time.Sleep(time.Duration(config.GetConfig().Themis.ProposalWait) * time.Millisecond) // Wait a bit for other replicas' proposals
-		if props, ok := r.themisProps[view]; ok {
-			if len(props) >= config.GetConfig().N()-config.GetConfig().ByzNo {
-				// Enough proposals to compute fair order
-				log.Infof("[%v] computing fair order for view %v with %v proposals", r.ID(), view, len(props))
-				fairOrder, err := r.fo.ComputeFairOrder(props, config.GetConfig().N(), config.GetConfig().ByzNo)
-				if err == nil && len(fairOrder) > 0 {
-					// Map identifiers back to transactions
-					// This requires us to keep track of transactions in the mempool
-					// For now, we'll use a simplified approach
-					payload := r.pd.GeneratePayload()
-					// Sort payload based on fairOrder
-					orderMap := make(map[crypto.Identifier]int)
-					for i, id := range fairOrder {
-						orderMap[id] = i
-					}
-					sort.Slice(payload, func(i, j int) bool {
-						idI := crypto.MakeID(payload[i])
-						idJ := crypto.MakeID(payload[j])
-						posI, okI := orderMap[idI]
-						posJ, okJ := orderMap[idJ]
-						if okI && okJ {
-							return posI < posJ
-						}
-						if okI {
-							return true
-						}
-						if okJ {
-							return false
-						}
-						return false
-					})
-					block := r.Safety.MakeProposal(view, payload)
-					r.totalBlockSize += len(block.Payload)
-					r.proposedNo++
-					block.Timestamp = time.Now()
-					r.Node.Broadcast(block)
-					_ = r.Safety.ProcessBlock(block)
-					r.voteStart = time.Now()
-					return
-				}
-			}
-		}
+		// In Themis mode, block proposal is triggered by HandleThemisProposalEvent
+		// when enough proposals are collected. Just log and return.
+		log.Debugf("[%v] proposeBlock called for view %v in Themis mode, waiting for proposals", r.ID(), view)
+		return
 	}
 
 	createStart := time.Now()

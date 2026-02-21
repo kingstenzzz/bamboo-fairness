@@ -1,0 +1,621 @@
+client:2 chain status is: [1] The current view is: 4569, chain growth rate is: 0.9997810378804467, ave block interval is: 3
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.048527 ms.
+Ave. processing time is 0.9183366733466933 ms.
+Ave. vote time is 1.2296341838303104 ms.
+Request rate is 200.080263 txs/s.
+Ave. round time is 2.213176 ms.
+Ave. Throughput is 777.607066 tx/s.
+Ave. Latency is 36.480219 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 2026
+Current View: 4569
+Committed Blocks: 4566
+Total Committed Tx: 7874
+Proposed Blocks: 577
+Processed Events: 3992
+client:2chain status is: [1] The current view is: 9207, chain growth rate is: 0.9998913633894623, ave block interval is: 3
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.052316 ms.
+Ave. processing time is 0.8875761721178957 ms.
+Ave. vote time is 1.2467611644566376 ms.
+Request rate is 200.091081 txs/s.
+Ave. round time is 2.190616 ms.
+Ave. Throughput is 799.719818 tx/s.
+Ave. Latency is 34.098042 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 4036
+Current View: 9207
+Committed Blocks: 9204
+Total Committed Tx: 16131
+Proposed Blocks: 1166
+Processed Events: 8041
+client:3 chain status is: [1] The current view is: 12938, chain growth rate is: 0.9999226963512677, ave block interval is: 3
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.058096 ms.
+Ave. processing time is 0.9212014134275618 ms.
+Ave. vote time is 1.2469899480835083 ms.
+Request rate is 266.587404 txs/s.
+Ave. round time is 2.335369 ms.
+Ave. Throughput is 1064.529558 tx/s.
+Ave. Latency is 43.879375 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 8056
+Current View: 12938
+Committed Blocks: 12935
+Total Committed Tx: 32169
+Proposed Blocks: 1618
+Processed Events: 11320
+client:3chain status is: [1] The current view is: 17644, chain growth rate is: 0.9999433170842308, ave block interval is: 3
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.056079 ms.
+Ave. processing time is 0.8839442101848849 ms.
+Ave. vote time is 1.178015956160851 ms.
+Request rate is 299.873713 txs/s.
+Ave. round time is 2.282192 ms.
+Ave. Throughput is 1198.526231 tx/s.
+Ave. Latency is 39.081912 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 12076
+Current View: 17644
+Committed Blocks: 17641
+Total Committed Tx: 48265
+Proposed Blocks: 2229
+Processed Events: 15415
+client:4 chain status is: [1] The current view is: 23448, chain growth rate is: 0.9999573488015013, ave block interval is: 3
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.053583 ms.
+Ave. processing time is 0.8484996579024533 ms.
+Ave. vote time is 1.1293439769521638 ms.
+Request rate is 359.734191 txs/s.
+Ave. round time is 2.145471 ms.
+Ave. Throughput is 1437.704342 tx/s.
+Ave. Latency is 33.031633 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 18098
+Current View: 23448
+Committed Blocks: 23445
+Total Committed Tx: 72330
+Proposed Blocks: 2986
+Processed Events: 20462
+client:4chain status is: [1] The current view is: 28428, chain growth rate is: 0.9999648209385773, ave block interval is: 3
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.052748 ms.
+Ave. processing time is 0.8455651333279626 ms.
+Ave. vote time is 1.1167015029362 ms.
+Request rate is 400.070662 txs/s.
+Ave. round time is 2.126917 ms.
+Ave. Throughput is 1597.024524 tx/s.
+Ave. Latency is 32.543235 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 24190
+Current View: 28428
+Committed Blocks: 28425
+Total Committed Tx: 96563
+Proposed Blocks: 3602
+Processed Events: 24826
+client:5 chain status is: [1] The current view is: 33376, chain growth rate is: 0.9999700365554024, ave block interval is: 3
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.055345 ms.
+Ave. processing time is 0.8459928640043913 ms.
+Ave. vote time is 1.098365514905149 ms.
+Request rate is 457.163137 txs/s.
+Ave. round time is 2.114603 ms.
+Ave. Throughput is 1795.332160 tx/s.
+Ave. Latency is 38.552506 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 70.59 s. Throughput: 1795.33 txs/s, Latency: 38.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 32270
+Current View: 33376
+Committed Blocks: 33373
+Total Committed Tx: 126728
+Proposed Blocks: 4228
+Processed Events: 29148
+client:5chain status is: [1] The current view is: 38609, chain growth rate is: 0.9999740979615096, ave block interval is: 3
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.054864 ms.
+Ave. processing time is 0.8354595620957693 ms.
+Ave. vote time is 1.0880762767589685 ms.
+Request rate is 499.936857 txs/s.
+Ave. round time is 2.088917 ms.
+Ave. Throughput is 1998.544746 tx/s.
+Ave. Latency is 63.177350 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 70.59 s. Throughput: 1795.33 txs/s, Latency: 38.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 80.65 s. Throughput: 1998.54 txs/s, Latency: 63.18, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 40322
+Current View: 38609
+Committed Blocks: 38606
+Total Committed Tx: 161191
+Proposed Blocks: 4903
+Processed Events: 33706
+client:6 chain status is: [1] The current view is: 43963, chain growth rate is: 0.9999772525647733, ave block interval is: 3
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.054247 ms.
+Ave. processing time is 0.8277327354727704 ms.
+Ave. vote time is 1.0795759356239623 ms.
+Request rate is 555.321044 txs/s.
+Ave. round time is 2.063053 ms.
+Ave. Throughput is 2219.939088 tx/s.
+Ave. Latency is 61.508853 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 70.59 s. Throughput: 1795.33 txs/s, Latency: 38.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 80.65 s. Throughput: 1998.54 txs/s, Latency: 63.18, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 90.70 s. Throughput: 2219.94 txs/s, Latency: 61.51, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 50368
+Current View: 43963
+Committed Blocks: 43960
+Total Committed Tx: 201350
+Proposed Blocks: 5604
+Processed Events: 38359
+client:6chain status is: [1] The current view is: 49317, chain growth rate is: 0.9999797221940586, ave block interval is: 3
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.054246 ms.
+Ave. processing time is 0.8228357445224915 ms.
+Ave. vote time is 1.0814035682981311 ms.
+Request rate is 599.208636 txs/s.
+Ave. round time is 2.042622 ms.
+Ave. Throughput is 2389.766806 tx/s.
+Ave. Latency is 60.050563 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 70.59 s. Throughput: 1795.33 txs/s, Latency: 38.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 80.65 s. Throughput: 1998.54 txs/s, Latency: 63.18, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 90.70 s. Throughput: 2219.94 txs/s, Latency: 61.51, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 100.74 s. Throughput: 2389.77 txs/s, Latency: 60.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 60364
+Current View: 49317
+Committed Blocks: 49314
+Total Committed Tx: 240744
+Proposed Blocks: 6323
+Processed Events: 42994
+client:7 chain status is: [1] The current view is: 54572, chain growth rate is: 0.9999816749129559, ave block interval is: 3
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.054228 ms.
+Ave. processing time is 0.8182754345039195 ms.
+Ave. vote time is 1.0729132046529464 ms.
+Request rate is 653.590097 txs/s.
+Ave. round time is 2.029832 ms.
+Ave. Throughput is 2606.587717 tx/s.
+Ave. Latency is 79.487862 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 70.59 s. Throughput: 1795.33 txs/s, Latency: 38.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 80.65 s. Throughput: 1998.54 txs/s, Latency: 63.18, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 90.70 s. Throughput: 2219.94 txs/s, Latency: 61.51, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 100.74 s. Throughput: 2389.77 txs/s, Latency: 60.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 110.77 s. Throughput: 2606.59 txs/s, Latency: 79.49, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 72400
+Current View: 54572
+Committed Blocks: 54569
+Total Committed Tx: 288739
+Proposed Blocks: 6989
+Processed Events: 47583
+client:7chain status is: [1] The current view is: 57949, chain growth rate is: 0.9999654857024523, ave block interval is: 3.000086288722064
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.055119 ms.
+Ave. processing time is 0.8398299218827252 ms.
+Ave. vote time is 1.0876683134747651 ms.
+Request rate is 679.853678 txs/s.
+Ave. round time is 2.084971 ms.
+Ave. Throughput is 2660.535190 tx/s.
+Ave. Latency is 158.552798 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 70.59 s. Throughput: 1795.33 txs/s, Latency: 38.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 80.65 s. Throughput: 1998.54 txs/s, Latency: 63.18, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 90.70 s. Throughput: 2219.94 txs/s, Latency: 61.51, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 100.74 s. Throughput: 2389.77 txs/s, Latency: 60.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 110.77 s. Throughput: 2606.59 txs/s, Latency: 79.49, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 120.82 s. Throughput: 2660.54 txs/s, Latency: 158.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 82142
+Current View: 57949
+Committed Blocks: 57945
+Total Committed Tx: 321454
+Proposed Blocks: 7384
+Processed Events: 50565
+client:8 chain status is: [1] The current view is: 62522, chain growth rate is: 0.9999680102367242, ave block interval is: 3.0000799769666338
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.055457 ms.
+Ave. processing time is 0.8380031498370143 ms.
+Ave. vote time is 1.0886839785748186 ms.
+Request rate is 722.272098 txs/s.
+Ave. round time is 2.093103 ms.
+Ave. Throughput is 2805.797206 tx/s.
+Ave. Latency is 241.051608 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 70.59 s. Throughput: 1795.33 txs/s, Latency: 38.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 80.65 s. Throughput: 1998.54 txs/s, Latency: 63.18, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 90.70 s. Throughput: 2219.94 txs/s, Latency: 61.51, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 100.74 s. Throughput: 2389.77 txs/s, Latency: 60.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 110.77 s. Throughput: 2606.59 txs/s, Latency: 79.49, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 120.82 s. Throughput: 2660.54 txs/s, Latency: 158.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 130.87 s. Throughput: 2805.80 txs/s, Latency: 241.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 94521
+Current View: 62522
+Committed Blocks: 62518
+Total Committed Tx: 367184
+Proposed Blocks: 7916
+Processed Events: 54606
+client:8chain status is: [1] The current view is: 66985, chain growth rate is: 0.9999701416777391, ave block interval is: 3.0000746480345173
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.055681 ms.
+Ave. processing time is 0.8353546050833561 ms.
+Ave. vote time is 1.0938707075852117 ms.
+Request rate is 757.726650 txs/s.
+Ave. round time is 2.103799 ms.
+Ave. Throughput is 2922.238224 tx/s.
+Ave. Latency is 301.610130 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 70.59 s. Throughput: 1795.33 txs/s, Latency: 38.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 80.65 s. Throughput: 1998.54 txs/s, Latency: 63.18, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 90.70 s. Throughput: 2219.94 txs/s, Latency: 61.51, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 100.74 s. Throughput: 2389.77 txs/s, Latency: 60.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 110.77 s. Throughput: 2606.59 txs/s, Latency: 79.49, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 120.82 s. Throughput: 2660.54 txs/s, Latency: 158.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 130.87 s. Throughput: 2805.80 txs/s, Latency: 241.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 140.92 s. Throughput: 2922.24 txs/s, Latency: 301.61, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 106782
+Current View: 66985
+Committed Blocks: 66981
+Total Committed Tx: 411814
+Proposed Blocks: 8441
+Processed Events: 58544
+client:9 chain status is: [1] The current view is: 68292, chain growth rate is: 0.9999707131351588, ave block interval is: 3.0000732193064668
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.062631 ms.
+Ave. processing time is 0.847317628924706 ms.
+Ave. vote time is 1.108479660063738 ms.
+Request rate is 764.551027 txs/s.
+Ave. round time is 2.211547 ms.
+Ave. Throughput is 2813.148397 tx/s.
+Ave. Latency is 365.486038 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 70.59 s. Throughput: 1795.33 txs/s, Latency: 38.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 80.65 s. Throughput: 1998.54 txs/s, Latency: 63.18, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 90.70 s. Throughput: 2219.94 txs/s, Latency: 61.51, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 100.74 s. Throughput: 2389.77 txs/s, Latency: 60.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 110.77 s. Throughput: 2606.59 txs/s, Latency: 79.49, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 120.82 s. Throughput: 2660.54 txs/s, Latency: 158.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 130.87 s. Throughput: 2805.80 txs/s, Latency: 241.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 140.92 s. Throughput: 2922.24 txs/s, Latency: 301.61, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 151.04 s. Throughput: 2813.15 txs/s, Latency: 365.49, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 115474
+Current View: 68292
+Committed Blocks: 68288
+Total Committed Tx: 424884
+Proposed Blocks: 8606
+Processed Events: 59686
+client:9chain status is: [1] The current view is: 70481, chain growth rate is: 0.9999716227528768, ave block interval is: 3.0000709451310357
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.063506 ms.
+Ave. processing time is 0.8564285714285714 ms.
+Ave. vote time is 1.1105901374292644 ms.
+Request rate is 782.326666 txs/s.
+Ave. round time is 2.286701 ms.
+Ave. Throughput is 2772.013746 tx/s.
+Ave. Latency is 455.851623 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 70.59 s. Throughput: 1795.33 txs/s, Latency: 38.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 80.65 s. Throughput: 1998.54 txs/s, Latency: 63.18, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 90.70 s. Throughput: 2219.94 txs/s, Latency: 61.51, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 100.74 s. Throughput: 2389.77 txs/s, Latency: 60.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 110.77 s. Throughput: 2606.59 txs/s, Latency: 79.49, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 120.82 s. Throughput: 2660.54 txs/s, Latency: 158.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 130.87 s. Throughput: 2805.80 txs/s, Latency: 241.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 140.92 s. Throughput: 2922.24 txs/s, Latency: 301.61, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 151.04 s. Throughput: 2813.15 txs/s, Latency: 365.49, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 161.17 s. Throughput: 2772.01 txs/s, Latency: 455.85, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 126090
+Current View: 70481
+Committed Blocks: 70477
+Total Committed Tx: 446774
+Proposed Blocks: 8881
+Processed Events: 61600
+client:10 chain status is: [1] The current view is: 73869, chain growth rate is: 0.9999729243099084, ave block interval is: 3.0000676910580113
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.064520 ms.
+Ave. processing time is 0.865151655977941 ms.
+Ave. vote time is 1.1027610025275425 ms.
+Request rate is 814.373849 txs/s.
+Ave. round time is 2.319457 ms.
+Ave. Throughput is 2805.200358 tx/s.
+Ave. Latency is 511.576262 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 70.59 s. Throughput: 1795.33 txs/s, Latency: 38.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 80.65 s. Throughput: 1998.54 txs/s, Latency: 63.18, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 90.70 s. Throughput: 2219.94 txs/s, Latency: 61.51, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 100.74 s. Throughput: 2389.77 txs/s, Latency: 60.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 110.77 s. Throughput: 2606.59 txs/s, Latency: 79.49, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 120.82 s. Throughput: 2660.54 txs/s, Latency: 158.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 130.87 s. Throughput: 2805.80 txs/s, Latency: 241.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 140.92 s. Throughput: 2922.24 txs/s, Latency: 301.61, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 151.04 s. Throughput: 2813.15 txs/s, Latency: 365.49, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 161.17 s. Throughput: 2772.01 txs/s, Latency: 455.85, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 171.34 s. Throughput: 2805.20 txs/s, Latency: 511.58, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 139538
+Current View: 73869
+Committed Blocks: 73865
+Total Committed Tx: 480654
+Proposed Blocks: 9315
+Processed Events: 64554
+client:10chain status is: [1] The current view is: 77750, chain growth rate is: 0.9999742758656172, ave block interval is: 3.0000643119903274
+Ave. block size is 0.
+Ave. payload size is 0.
+Ave. real block is 0.
+Ave. creation time is 0.064760 ms.
+Ave. processing time is 0.8669364331959977 ms.
+Ave. vote time is 1.0992 ms.
+Request rate is 845.283079 txs/s.
+Ave. round time is 2.333505 ms.
+Ave. Throughput is 2863.140752 tx/s.
+Ave. Latency is 550.152126 ms.
+Phalanx module is disabled (phalanx_multi=0)
+Throughput is: 
+Time: 10.13 s. Throughput: 777.61 txs/s, Latency: 36.48, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 20.17 s. Throughput: 799.72 txs/s, Latency: 34.10, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 30.22 s. Throughput: 1064.53 txs/s, Latency: 43.88, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 40.27 s. Throughput: 1198.53 txs/s, Latency: 39.08, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 50.31 s. Throughput: 1437.70 txs/s, Latency: 33.03, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 60.46 s. Throughput: 1597.02 txs/s, Latency: 32.54, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 70.59 s. Throughput: 1795.33 txs/s, Latency: 38.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 80.65 s. Throughput: 1998.54 txs/s, Latency: 63.18, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 90.70 s. Throughput: 2219.94 txs/s, Latency: 61.51, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 100.74 s. Throughput: 2389.77 txs/s, Latency: 60.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 110.77 s. Throughput: 2606.59 txs/s, Latency: 79.49, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 120.82 s. Throughput: 2660.54 txs/s, Latency: 158.55, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 130.87 s. Throughput: 2805.80 txs/s, Latency: 241.05, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 140.92 s. Throughput: 2922.24 txs/s, Latency: 301.61, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 151.04 s. Throughput: 2813.15 txs/s, Latency: 365.49, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 161.17 s. Throughput: 2772.01 txs/s, Latency: 455.85, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 171.34 s. Throughput: 2805.20 txs/s, Latency: 511.58, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+Time: 181.43 s. Throughput: 2863.14 txs/s, Latency: 550.15, Safe Rate: 0.00%, Risk Rate: 0.00%, Safe Rate (M): 0.00%, Risk Rate (M): 0.00%, Safe Rate (TA): 0.00%, Risk Rate (TA): 0.00%, 0.0ms(p), 0.0ms(c), 0.0ms(s), 0.0ms(o)
+
+=== Sorting Algorithms Status ===
+Themis: DISABLED
+HyperG: DISABLED
+
+=== Transaction Statistics ===
+Total Received Tx: 153361
+Current View: 77750
+Committed Blocks: 77746
+Total Committed Tx: 519464
+Proposed Blocks: 9790
+Processed Events: 67960

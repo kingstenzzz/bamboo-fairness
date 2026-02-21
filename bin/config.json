@@ -41,10 +41,10 @@
   "phalanx_open_latency": 0,
   "themis": {
     "enabled": false,
-    "proposal_wait": 200
+    "proposal_wait": 300
   },
   "hyperg": {
-    "enabled": false,
+    "enabled": true,
     "gamma": 0.8,
     "delta": 5,
     "proposal_wait": 100
@@ -55,11 +55,11 @@
   "phalanx_duration_command": 0,
   "phalanx_selected_propose": 2,
   "benchmark": {
-    "T": 300,
+    "T": 30,
     "N": 0,
-    "K": 1000,
+    "K": 100,
     "W": 0.5,
-    "Throttle": 100,
+    "Throttle": 10,
     "Concurrency": 1,
     "Distribution": "uniform",
     "LinearizabilityCheck": false,
