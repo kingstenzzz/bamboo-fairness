@@ -31,31 +31,55 @@ Replicas finalize a block whenever the block satisfies the **Commit** rule based
 Once a block is finalized, the entire prefix of the chain is also finalized. Rules dictate that all finalized blocks remain in a single chain.
 Finalized blocks can be removed from memory to persistent storage for garbage collection.
 
+## Key Features
+
+### Advanced Consensus Mechanisms
+- **Phalanx Multi-Proposer**: Enhanced HotStuff with configurable number of concurrent proposers for improved throughput
+- **Themis Fair Ordering**: Cryptographic fairness guarantees preventing leader manipulation of transaction order
+- **Memory Pool Management**: Efficient transaction buffering and deduplication
+
+### Robust Engineering
+- **Zero-Value Protection**: Comprehensive edge case handling for production stability
+- **Configurable Parameters**: Fine-grained control over consensus behavior
+- **Extensive Monitoring**: Real-time metrics and performance insights
+
 ## What is included?
 
 Protocols:
 - [x] [HotStuff and two-chain HotStuff](https://dl.acm.org/doi/10.1145/3293611.3331591)
 - [x] [Streamlet](https://dl.acm.org/doi/10.1145/3419614.3423256)
 - [x] [Fast-HotStuff](https://arxiv.org/abs/2010.11454)
+- [x] [Phalanx](https://arxiv.org/abs/2012.01636) - Multi-proposer consensus with fairness
+- [x] [Themis](https://arxiv.org/abs/2101.03715) - Fair transaction ordering algorithm
 - [ ] [LBFT](https://arxiv.org/abs/2012.01636)
 - [ ] [SFT](https://arxiv.org/abs/2101.03715)
 
 Features:
 - [x] Benchmarking
 - [x] Fault injection
+- [x] Fair transaction ordering (Themis)
+- [x] Multi-proposer consensus (Phalanx)
+- [x] Memory pool management
+- [x] Advanced monitoring and metrics
+- [x] Configurable consensus parameters
+- [x] Zero-value protection for edge cases
 
 
 # How to build
 
-1. Install [Go](https://golang.org/dl/).
+1. Install [Go](https://golang.org/dl/) (version 1.14 or higher recommended).
 
-2. Download Bamboo source code.
+2. Clone Bamboo-Phalanx repository.
 
-3. Build `server` and `client`.
+3. Build the project:
 ```
-cd bamboo/bin
-go build ../server
-go build ../client
+cd bamboo-phalanx
+# Build server and client binaries
+go build -o bin/server ./server
+go build -o bin/client ./client
+
+# Or build all packages
+go build ./...
 ```
 
 # How to run
@@ -64,60 +88,129 @@ Users can run Bamboo-based cBFT protocols in simulation (single process) or depl
 
 ## Simulation
 In simulation mode, replicas are running in separate Goroutines and messages are passing via Go channel.
-1. ```cd bamboo/bin```.
-2. Modify `ips.txt` with a set of IPs of each node. The number of IPs equals to the number of nodes. Here, the local IP is `127.0.0.1`. Each node will be assigned by an increasing port from `8070`.
-3. Modify configuration parameters in `config.json`.
-4. Modify `simulation.sh` to specify the name of the protocol you are going to run.
-5. Run `server` and then run `client` using scripts.
-```
-bash simulation.sh
-```
-```
-bash runClient.sh
-```
-6. close the simulation by stopping the client and the server in order.
-```
-bash closeClient.sh
-bash stop.sh
-```
-Logs are produced in the local directory with the name of `client/server.xxx.log` where `xxx` is the pid of the process.
+
+1. ```cd bamboo-phalanx/bin```
+
+2. Configure node addresses in `ips.txt` (local testing uses `127.0.0.1` with ports starting from `8070`)
+
+3. Customize protocol parameters in `config.json`:
+   ```json
+   {
+     "protocol": "phalanx",           // or "hotstuff", "streamlet", "fasthotstuff"
+     "phalanx_multi": 3,              // number of proposers (0 for disabled)
+     "themis": {
+       "enabled": true,               // enable fair transaction ordering
+       "proposal_wait": 100           // milliseconds to wait for proposals
+     }
+   }
+   ```
+
+4. Run simulation:
+   ```
+   bash simulation.sh
+   ```
+
+5. Start client traffic:
+   ```
+   bash runClient.sh
+   ```
+
+6. Stop simulation gracefully:
+   ```
+   bash closeClient.sh
+   bash stop.sh
+   ```
+
+Logs are generated as `client/server.xxx.log` where `xxx` is the process ID.
 
 ## Deploy
-Bamboo can be deployed in a real network.
-1. ```cd bamboo/bin/deploy```.
-2. Build `server` and `client`.
-3. Specify external IPs and internal IPs of server nodes in `pub_ips.txt` and `ips.txt`, respectively.
-4. IPs of machines running as clients are specified in `clients.txt`.
-5. The type of the protocol is specified in `run.sh`.
-6. Modify configuration parameters in `config.json`.
-7. Modify `deploy.sh` and `setup_cli.sh` to specify the username and password for logging onto the server and client machines. 
-8. Upload binaries and config files onto the remote machines.
-```
-bash deploy.sh
-bash setup_cli.sh
-```
-9. Upload/Update config files onto the remote machines.
-```
-bash update_conf.sh
-```
-10. Start the server nodes.
-```
-bash start.sh
-```
-11. Log onto the client machine (assuming only one) via ssh and start the client.
-```
-bash ./runClient.sh
-```
-The number of concurrent clients can be specified in `runClient.sh`.
-12. Stop the client and server.
-```
-bash ./closeClient.sh
-bash ./pkill.sh
-```
+Bamboo-Phalanx can be deployed in a real network cluster.
+
+1. ```cd bamboo-phalanx/bin/deploy```
+
+2. Prepare deployment configuration:
+   - `pub_ips.txt`: External/public IPs of server nodes
+   - `ips.txt`: Internal/private IPs of server nodes
+   - `clients.txt`: IPs of client machines
+
+3. Configure deployment scripts in `deploy.sh` and `setup_cli.sh` with SSH credentials
+
+4. Deploy binaries and configuration:
+   ```
+   bash deploy.sh      # Deploy to servers
+   bash setup_cli.sh   # Setup client machines
+   ```
+
+5. Update configuration files:
+   ```
+   bash update_conf.sh
+   ```
+
+6. Start the cluster:
+   ```
+   bash start.sh       # Start server nodes
+   ```
+
+7. On client machine, start traffic generation:
+   ```
+   bash ./runClient.sh  # Adjustable concurrent clients in script
+   ```
+
+8. Graceful shutdown:
+   ```
+   bash ./closeClient.sh
+   bash ./pkill.sh
+   ```
 
 # Monitor
-During each run, one can view the statistics (throughput, latency, view number, etc.) at a node via a browser.
+Real-time monitoring and metrics are available during operation:
+
+## HTTP Query Interface
+Access node statistics via browser:
 ```
 http://127.0.0.1:8070/query
-``` 
-where `127.0.0.1:8070` can be replaced with the actual node address.
+```
+Replace with actual node address for remote deployments.
+
+## Available Metrics
+- Throughput and latency measurements
+- View/change numbers
+- Phalanx safety/risk rates
+- Memory pool status
+- Transaction ordering fairness metrics
+- Network connectivity statistics
+
+## Advanced Monitoring
+- Custom metrics via `/metrics` endpoint
+- JSON-formatted responses for programmatic access
+- Configurable logging levels
+- Performance profiling support
+
+## Project Status
+
+**Current Version**: Enhanced Bamboo with Phalanx and Themis integration
+**Status**: Actively maintained with production-ready features
+
+### Recent Improvements
+- Fixed critical zero-value division errors in Phalanx metrics
+- Integrated Themis fair transaction ordering algorithm
+- Enhanced memory pool management and deduplication
+- Improved monitoring and diagnostic capabilities
+- Added comprehensive configuration options
+
+### Documentation
+- [THEMIS_GO_IMPLEMENTATION.md](THEMIS_GO_IMPLEMENTATION.md) - Detailed Themis integration guide
+- [PHALANX_MULTI_ZERO_FIX.md](PHALANX_MULTI_ZERO_FIX.md) - Phalanx edge case fixes
+- [THEMIS_INTEGRATION_PLAN.md](THEMIS_INTEGRATION_PLAN.md) - Integration roadmap
+
+## Contributing
+
+We welcome contributions! Please:
+1. Fork the repository
+2. Create a feature branch
+3. Submit pull requests with clear descriptions
+4. Ensure all tests pass
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
